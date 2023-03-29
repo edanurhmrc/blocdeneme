@@ -5,9 +5,7 @@ class email_textfield extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.only(top:15.0,left:15.0,right: 15),
-      child: TextFormField(
+    return TextFormField(
           obscureText: true,
           decoration: InputDecoration(
             contentPadding: EdgeInsets.only(top: -3.0, left: 10),
@@ -24,7 +22,7 @@ class email_textfield extends StatelessWidget {
               return 'Lütfen e-posta adresinizi girin';
             }
             return null;
-          }),
-    );
+          });
+
   }
 }
