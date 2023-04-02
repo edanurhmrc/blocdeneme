@@ -8,6 +8,7 @@ class LoginState extends Equatable {
    final String password;
   bool get isValidPassword => password.length > 6;
 
+
    final FormSubmissionStatus formStatus;
 
   const LoginState({

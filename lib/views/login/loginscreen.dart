@@ -1,4 +1,4 @@
-import 'package:blocdeneme/Register.dart';
+import 'package:blocdeneme/views/register/Register.dart';
 import 'package:blocdeneme/main.dart';
 import 'package:blocdeneme/resetPassword.dart';
 import 'package:blocdeneme/views/login/widgets/email_textfield.dart';
